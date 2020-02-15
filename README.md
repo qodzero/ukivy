@@ -22,14 +22,15 @@ rbtn.radius = 10 # the roundness of the button
 rbtn.text = 'Round Button'
 
 some_widget.add_widget(rbtn)
-
-# IN KV
-
+`
+And In KV
+`
 #: import RoundedButton ukivy.button.RoundedButton
 
 RoundedButton:
     text: 'Rounded Baby'
-    radius: 30 # value is in pixels by the way`
+    radius: 30 # value is in pixels by the way
+`
 
 # Contributions
 
