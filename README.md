@@ -24,7 +24,7 @@ rbtn.text = 'Round Button'
 some_widget.add_widget(rbtn)
 ```
 And In KV
-```
+```kv
 #: import RoundedButton ukivy.button.RoundedButton
 
 RoundedButton:
