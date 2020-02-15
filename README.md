@@ -14,7 +14,7 @@ Project Directory, Will Probably Add It To PYPI Soon ;)
 Example Usage
 ----------------
 
-`
+```
 from ukivy.button import RoundedButton
 
 rbtn = RoundedButton()
@@ -22,15 +22,15 @@ rbtn.radius = 10 # the roundness of the button
 rbtn.text = 'Round Button'
 
 some_widget.add_widget(rbtn)
-`
+```
 And In KV
-`
+```
 #: import RoundedButton ukivy.button.RoundedButton
 
 RoundedButton:
     text: 'Rounded Baby'
     radius: 30 # value is in pixels by the way
-`
+```
 
 # Contributions
 
