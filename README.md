@@ -14,7 +14,7 @@ Project Directory, Will Probably Add It To PYPI Soon ;)
 Example Usage
 ----------------
 
-```
+```python
 from ukivy.button import RoundedButton
 
 rbtn = RoundedButton()
